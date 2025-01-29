@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMWORD</title>
+
+    <!-- Add Font Awesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<link rel="stylesheet" href="mystyle.css">
+<script src="myscripts.js"></script>
+
+<body class="flex items-center justify-center min-h-screen ">
+
+    <!-- Header Section -->
+    <header class="w-full flex items-center justify-between p-5 bg-cyan-0 fixed top-0 z-50">
+        <!-- Hamburger for smaller devices -->
+        <div class="md:flex items-end hover:bg-red-700 px-2 rounded-[4px]">
+            <button id="hamburger" class="text-white text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Navigation with Hamburger Menu -->
+        <nav class="hidden md:flex">
+            <ul class="flex space-x-5">
+                <li class="hover:underline hover:text-red-500"><a href="home.html">home</a></li>
+                <li class="hover:underline hover:text-red-500"><a href="home.html">series</a></li>
+                <li class="hover:underline hover:text-red-500"><a href="home.html">movies</a></li>
+                <li class="hover:underline hover:text-red-500"><a href="home.html">most popular</a></li>
+            </ul>
+        </nav>
+
+        <button class="rounded-sm bg-white text-black hover:bg-red-700 hover:text-white p-2 w-20">Login</button>
+    </header>
+
+    <!-- Centered Div -->
+    <div class="w-[80vw] h-[70vh] p-5 bg-cyan-100 mt-[80px] rounded-[4px] bg-white bg-opacity-60 backdrop-blur-sm">
+        <!-- Content goes here -->
+        <h1 class="text-black font-semibold text-2xl font-serif">WELCOME TO ANIMWORD</h1>
+        <!-- Search Box -->
+        <div class="flex items-center space-x-2">
+            <!-- Search Input -->
+            <input type="text" placeholder="Search..."
+                class="text-black p-2 mt-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+
+            <!-- Search Button -->
+            <button class="bg-red-500 text-white p-2 mt-2 rounded-r-lg hover:bg-red-700">
+                <i class="fas fa-search"></i> <!-- You can add an icon if needed -->
+                Search
+            </button>
+        </div>
+
+        <!-- cards -->
+        <div class="mt-12 flex flex-wrap gap-5 justify-center">
+
+            <div class="w-[300px] h-[200px] rounded-[4px] p-2 shadow-2xl">
+                <h2 class="text-black font-medium font-serif text-2xl">Top arriving</h2>
+                <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> 
+                <br><span class="bg-black rounded-[4px] px-2">9.8/10</span>
+            </div>
+
+            <div class="w-[300px] h-[200px] rounded-[4px] p-2 shadow-2xl">
+                <h2 class="text-black font-medium font-serif text-2xl">Dubbed Anim</h2>
+                <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> 
+                <br><span class="bg-black rounded-[4px] px-2">9.8/10</span>
+            </div>
+
+            <div class="w-[300px] h-[200px] rounded-[4px] p-2 shadow-2xl">
+                <h2 class="text-black font-medium font-serif text-2xl">Sub Anim</h2>
+                <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> <i class="fas fa-star text-red-700"></i> 
+                <br><span class="bg-black rounded-[4px] px-2">9.8/10</span>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

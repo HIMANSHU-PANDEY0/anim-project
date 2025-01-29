@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lufi</title>
+    
+        <!-- Add Font Awesome CDN for icons -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    </head>
+    
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myscripts.js"></script>
+    
+    <body>
+        <!-- Header Section -->
+        <header class="w-full flex items-end justify-between p-5 bg-cyan-950 fixed top-0 z-50">
+            <!-- Hamburger for smaller devices -->
+            <div class="md: flex items-end">
+                <button id="hamburger" class="text-white text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+             <!-- logo  -->
+            <div class="flex items-center">
+                 <img src="img/lufi.png" alt="logo" class="h-[40px] ">
+            </div> 
+    
+            <!-- Navigation with Hamburger Menu -->
+            <!-- <nav class="hidden md:flex">
+                <ul class="flex space-x-5">
+                    <li class="hover:underline"><a href="home.html">home</a></li>
+                    <li class="hover:underline"><a href="home.html">series</a></li>
+                    <li class="hover:underline"><a href="home.html">movies</a></li>
+                    <li class="hover:underline"><a href="home.html">most popular</a></li>
+                </ul>
+            </nav> -->
+               <!-- Share Icons Section -->
+
+     <div class="flex gap-12 justify-center">
+       
+        <!-- Twitter -->
+        <a href="https://twitter.com/intent/tweet?text=Check%20this%20out&url=yourURLhere" target="_blank">
+            <i class="fab fa-twitter text-2xl text-blue-500 hover:text-blue-700"></i>
+        </a>
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/sharer/sharer.php?u=yourURLhere" target="_blank">
+            <i class="fab fa-facebook text-2xl text-blue-700 hover:text-blue-900"></i>
+        </a>
+        <!-- Discord -->
+        <a href="https://discord.com/share?url=yourURLhere" target="_blank">
+            <i class="fab fa-discord text-2xl text-indigo-500 hover:text-indigo-700"></i>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/share?url=yourURLhere" target="_blank">
+            <i class="fab fa-instagram text-2xl text-pink-500 hover:text-pink-700"></i>
+        </a>
+        <!-- Telegram -->
+        <a href="https://t.me/share/url?url=yourURLhere" target="_blank">
+            <i class="fab fa-telegram-plane text-2xl text-teal-500 hover:text-teal-700"></i>
+        </a>
+    </div>
+    
+            <button class="rounded-sm bg-sky-500 hover:bg-sky-700 p-2 w-20">Login</button>
+        </header>
+    
+</body>
+</html>
